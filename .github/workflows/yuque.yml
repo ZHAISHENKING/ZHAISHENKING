@@ -29,7 +29,7 @@ jobs:
           yuque-token: ${{secrets.YUQUE_TOKEN}}
           yuque-namespace: zhaishenking/read
           yuque-doc-order-by: updated_at
-          yuque-template-file: true
+          yuque-template-file: README.yuque.template.md
           yuque-output-file: README.md
         
       - name: Commit and push if changed
