@@ -31,10 +31,6 @@ jobs:
           yuque-doc-order-by: updated_at
           yuque-template-file: true
           yuque-output-file: README.md
-
-      - name: Result
-        run: |-
-         cat README.skylark.md
         
       - name: Commit and push if changed
         run: |-
